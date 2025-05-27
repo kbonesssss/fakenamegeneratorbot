@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Получаем токен бота из переменной окружения
-BOT_TOKEN = os.getenv("BOT_TOKEN", "5331114144:AAEMd0efx8UdIQqaYBdPZZ2lG0ZZTF09-XI")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "your_token_here")
 
 # Список ID администраторов
 ADMIN_IDS = [
